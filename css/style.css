@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 10px;
+}
+
+h1 {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+section {
+    margin: auto;
+    width: 100%;
+    min-width: 320px;
+    max-width: 360px;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.mdl {
+    position: relative;
+}
+
+.mdl-button-close {
+    position: absolute;
+    top: 8px;
+    right: 6px;
+    width: 6px;
+    height: 8px;
+    background: url("../img/icon-button-close.svg") center center no-repeat;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+}
+
+.mdl.mdl-sm {
+    grid-template-columns: 1fr 5fr;
+    grid-auto-rows: minmax(95px, auto);
+    grid-column-gap: 25px;
+    padding: 12px 24px 12px 12px;
+    background: #ffffff;
+}
+
+.mdl.border-strong {
+    border: 1px solid #000000;
+}
+
+.mdl-avatar {
+    align-self: start;
+    min-height: 48px;
+    background: #000000;
+}
